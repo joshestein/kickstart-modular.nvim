@@ -8,5 +8,13 @@ return {
   keys = {
     { '<leader>gg', '<cmd>Neogit<cr>', desc = 'Neogit' },
   },
+  opts = {
+    mappings = {
+      popup = {
+        ['F'] = 'PullPopup',
+        ['p'] = 'PushPopup',
+      },
+    },
+  },
   config = true,
 }
