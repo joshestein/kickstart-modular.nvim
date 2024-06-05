@@ -14,6 +14,9 @@ return {
         ['F'] = 'PullPopup',
         ['p'] = 'PushPopup',
       },
+      status = {
+        ['gz'] = 'RefreshBuffer',
+      },
     },
   },
   config = true,
